@@ -14,12 +14,12 @@ public class HttpRespController {
 	@GetMapping("/mus")
 	public String mus() {
 		return "b"; // 머스태치 템플릿 엔진 라이브리리 등록 완료 - templates 폴더안에 .mustache을 나두면 확장자 없이 파일명만 적으면
-		                     // 자동으로 찾아감.
+					// 자동으로 찾아감.
 	}
 	
 	@GetMapping("/jsp")
 	public String jsp() {
 		return "c"; // jsp 엔진 사용 : src/main/webapp 폴더가 디폴트 경로!!
-		                     // /WEB-INF/views/c.jsp (ViewResolver)
+					// /WEB-INF/views/c.jsp (ViewResolver)
 	}
 }
